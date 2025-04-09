@@ -1,6 +1,3 @@
----
-
-```markdown
 # 3D Developer Portfolio 🚀
 
 A modern, animated 3D developer portfolio built with **React**, **Tailwind CSS**, **Three.js**, and **Framer Motion**. This project showcases my skills, work experience, and projects using smooth animations and interactive 3D visuals.
@@ -58,6 +55,4 @@ The project will be live at `http://localhost:5173`.
 ## 📄 License
 
 This project is open source and available under the [MIT License](LICENSE).
-```
 
----
