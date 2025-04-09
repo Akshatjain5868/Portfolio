@@ -182,7 +182,7 @@ const projects = [
       },
     ],
     image: eCommerce,
-    source_code_link: "https://github.com/Akshatjain5868/Finance-Dashboard.git",
+    source_code_link: "https://github.com/Akshatjain5868/e-commerce-MERN.git",
   },
   {
     name: "Finance Dashboard",
@@ -207,7 +207,7 @@ const projects = [
       },
     ],
     image: finance,
-    source_code_link: "https://github.com/Akshatjain5868/e-commerce-MERN.git",
+    source_code_link: "https://github.com/Akshatjain5868/Finance-Dashboard.git",
   },
   {
     name: "Portfolio Website",
