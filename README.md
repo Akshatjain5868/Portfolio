@@ -1,74 +1,63 @@
-
 ---
 
 ```markdown
-# 💼 3D Developer Portfolio
+# 3D Developer Portfolio 🚀
 
-A sleek and modern 3D portfolio website built with **React**, **Three.js**, and **Tailwind CSS** to showcase my skills, experience, and projects in an interactive and responsive layout.
+A modern, animated 3D developer portfolio built with **React**, **Tailwind CSS**, **Three.js**, and **Framer Motion**. This project showcases my skills, work experience, and projects using smooth animations and interactive 3D visuals.
 
----
+## ✨ Features
 
-## 🚀 Features
-
-- 🧑‍💻 3D animated hero section
-- 🧩 Modular and responsive design
-- 💡 Sections: About, Skills, Projects, Testimonials, Contact
-- 📂 Clickable project cards with source code links
-- 🌌 Interactive starry background using Three.js
-- 🔗 Animated social media icons with hover effects
-
----
+- 🧭 Smooth 3D animations using `@react-three/fiber` and `@react-three/drei`
+- 🎨 Clean and responsive design using Tailwind CSS
+- ⚡ Animations powered by Framer Motion
+- 💬 Testimonials and detailed project cards
+- 🌐 Social links (GitHub, LinkedIn) with interactive hover effects
 
 ## 🛠️ Tech Stack
 
-- **React** – Frontend framework
-- **Tailwind CSS** – Styling and layout
-- **Three.js + @react-three/fiber** – 3D rendering
-- **Framer Motion** – Animations and transitions
-- **EmailJS** – Contact form integration
+- React.js
+- Tailwind CSS
+- Three.js / React Three Fiber
+- Framer Motion
+- JavaScript (ES6+)
 
----
+## 🚀 Getting Started
 
-## 📦 Getting Started
+Follow these steps to run the project locally:
 
-### Prerequisites
-
-- Node.js (v18+)
-- npm or yarn
-
-### 🛠️ Installation
+### 1. Clone the repository
 
 ```bash
-# Clone the repository
 git clone https://github.com/Akshatjain5868/Portfolio.git
-
-# Navigate into the project directory
 cd Portfolio
+```
 
-# Install dependencies
+### 2. Install dependencies
+
+Make sure you have Node.js installed, then run:
+
+```bash
 npm install
 ```
 
-### 🚴 Run the Project
+### 3. Start the development server
 
 ```bash
 npm run dev
 ```
 
-The app should now be running at `http://localhost:5173/`
+The project will be live at `http://localhost:5173`.
 
----
+## 📬 Connect with Me
 
-## 📫 Connect with Me
-
-- 🔗 LinkedIn: [linkedin.com/in/Akshat2402](https://linkedin.com/in/Akshat2402)
-- 🐙 GitHub: [github.com/Akshatjain5868](https://github.com/Akshatjain5868)
+- [GitHub](https://github.com/Akshatjain5868)
+- [LinkedIn](https://linkedin.com/in/Akshat2402)
 
 ---
 
 ## 📄 License
 
-This project is licensed under the [MIT License](LICENSE).
+This project is open source and available under the [MIT License](LICENSE).
 ```
 
 ---
