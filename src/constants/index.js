@@ -14,6 +14,7 @@ import {
   ruby,
   go,
   maropost,
+  nimbuspost,
   eCommerce,
   finance,
   portfolio,
@@ -44,7 +45,7 @@ const services = [
     icon: web,
   },
   {
-    title: "ROR Developer",
+    title: "Node.js Developer",
     icon: mobile,
   },
   {
@@ -102,6 +103,26 @@ const technologies = [
 
 const experiences = [
   {
+    title: "Software Engineer",
+    company_name: "Nimbuspost",
+    icon: nimbuspost,
+    iconBg: "#383E56",
+    date: "July 2024 - Present",
+    points: [
+      "Eliminated DB query bottleneck in Serviceability & Pricing APIs by redesigning the data access layer with in-memory caching and goroutine-based parallel processing, reducing calls from 50+ per OD pair to a fixed 11 total across 1000+ pairs and cutting response time from 3s (linear scaling) to 2.5s (near-constant scaling).",
+
+      "Centralized authentication across 10+ backend services by architecting and shipping a standalone JWT-based Auth microservice from scratch, eliminating duplicated auth logic and reducing the attack surface for security vulnerabilities system-wide.",
+
+      "Improved delivery success rates by 15% by designing a Smart Allocation engine that dynamically ranks and selects couriers based on seller preferences, directly reducing fulfillment costs for sellers and improving end-customer experience.",
+
+      "Accelerated frontend-backend integration cycles by collaborating directly with the frontend team on API contracts and response design, while simultaneously mentoring 3 interns through code reviews, debugging sessions, and backend best practices.",
+
+      "Expanded payment infrastructure coverage by integrating multiple payment gateways (BillDesk, EaseBuzz) into the existing payments microservice, enabling broader payment optionality for sellers without disrupting existing flows.",
+
+      "Cut production debugging time by 35% by introducing structured, meaningful logging across the system, exporting logs to CloudWatch, and instrumenting the codebase with CubeAPM using OpenTelemetry for full metrics, traces, and log visibility.",
+    ],
+  },
+  {
     title: "Associate Software Engineer",
     company_name: "Maropost",
     icon: maropost,
@@ -125,7 +146,7 @@ const experiences = [
       "Gained hands-on experience in backend development using Ruby on Rails and Golang.",
       "Worked on bug fixes, code optimizations, and small feature enhancements, improving overall system efficiency.",
       "Learned and applied best practices for database design, API development, and software architecture.",
-      "Collaborated with senior engineers to understand scalable system design and software development workflows.", 
+      "Collaborated with senior engineers to understand scalable system design and software development workflows.",
       "Participated in code reviews and agile development processes, enhancing code quality and teamwork.",
     ],
   },

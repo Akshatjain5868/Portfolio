@@ -20,6 +20,7 @@ import go from "./tech/go.png";
 import ruby from "./tech/ruby.png";
 
 import maropost from "./company/maropost.png";
+import nimbuspost from "./company/Nimbuspost.png";
 
 import eCommerce from "./eCommerce.jpg";
 import finance from "./finance.png";
@@ -50,6 +51,7 @@ export {
   go,
   ruby,
   maropost,
+  nimbuspost,
   eCommerce,
   finance,
   portfolio,
